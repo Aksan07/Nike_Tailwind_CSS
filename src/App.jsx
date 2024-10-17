@@ -16,9 +16,12 @@ export default function App() {
     <main className="relative">
       <Nav />
       <section>
-        <Hero />
+        <Hero
+          className="xl:padding-1
+        wide:padding-r padding-b"
+        />
       </section>
-      <section className="padding">
+      {/* <section className="padding">
         <PopularProducts />
       </section>
       <section className="padding">
@@ -38,7 +41,7 @@ export default function App() {
       </section>
       <section className="padding-x padding-t pb-8 bg-black">
         <Footer />
-      </section>
+      </section> */}
     </main>
   );
 }

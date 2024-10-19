@@ -15,13 +15,13 @@ export default function App() {
   return (
     <main className="relative">
       <Nav />
-      <section>
-        <Hero
-          className="xl:padding-1
+      <section
+        className="xl:padding-l
         wide:padding-r padding-b"
-        />
+      >
+        <Hero />
       </section>
-      {/* <section className="padding">
+      <section className="padding">
         <PopularProducts />
       </section>
       <section className="padding">
@@ -41,7 +41,7 @@ export default function App() {
       </section>
       <section className="padding-x padding-t pb-8 bg-black">
         <Footer />
-      </section> */}
+      </section>
     </main>
   );
 }

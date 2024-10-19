@@ -8,11 +8,13 @@ export default function Button({ label, imgURL }) {
      bg-coral-red rounded-full text-white border-coral-red"
     >
       {label}
-      <img
-        src={imgURL}
-        alt="arrow right icon"
-        className="ml-2 rounded-full w-5 h-5"
-      />
+      {imgURL && (
+        <img
+          src={imgURL}
+          alt="arrow right icon"
+          className="ml-2 rounded-full w-5 h-5"
+        />
+      )}
     </button>
   );
 }
